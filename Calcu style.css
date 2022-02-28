@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+}
+.card{
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 15px;
+    box-shadow: 0px 4px 8px 0px black ;
+    transition: 0.5s;
+    font-size: 0;
+}
+.card:hover{
+    box-shadow: 1000px 106px 302px 2000px red;
+    
+}
+.head #result{
+    height: 100px;
+    width: 332px;
+    font-size: 32px; 
+    font-weight: bold;
+    text-align: right;
+    padding: 0px 5px;
+    letter-spacing: 2px;
+}
+.btn{
+    width: 87px;
+    height: 80px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgba(246, 241, 209);
+    color: blueviolet;
+}
+.valuebtn{
+    background-color: rgb(53, 54, 54);
+    color: whitesmoke;
+}
+.submit{
+    background-color: darkblue;
+}
+.btn:hover{
+   background-color: burlywood;
+}
+.valuebtn:hover{
+    background-color: black;
+}
+.submit:hover{
+    background-color: chocolate;
+}
